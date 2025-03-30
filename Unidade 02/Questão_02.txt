@@ -1,0 +1,38 @@
+Primeiro problema: Sistema de Gerenciamento de Biblioteca
+
+Problema: Controlar empréstimos, devoluções e cadastro de livros, alunos e funcionários.
+
+Classe: Pode ser definida uma classe Livro, que serve como modelo para criar objetos que representam livros individuais.
+
+Objeto: Cada instância de Livro (por exemplo, um objeto representando "O Senhor dos Anéis") é um objeto com atributos específicos, como título, autor, ISBN, etc.
+
+Métodos: Dentro da classe Livro, podemos ter métodos como emprestar(), devolver() e reservar(), que definem as ações possíveis com um livro.
+
+Parâmetros: Esses métodos podem receber parâmetros para ajustar suas ações. Por exemplo, emprestar(usuario) recebe como parâmetro o objeto que representa 
+o usuário que está fazendo o empréstimo, ou reservar(data) para definir a data da reserva.
+
+Segundo problema: Sistema Bancário
+
+Problema: Gerenciar contas correntes, poupanças e operações bancárias como depósitos, saques e transferências.
+
+Classe: Uma classe ContaBancaria pode ser criada para servir de modelo para diferentes tipos de conta.
+
+Objeto: Cada conta criada a partir da classe (por exemplo, a conta do João ou da Maria) é um objeto, com atributos como número da conta, saldo, e dados do titular.
+
+Métodos: A classe ContaBancaria pode ter métodos como depositar(valor), sacar(valor) e transferir(valor, contaDestino) que implementam as operações.
+
+Parâmetros: Nos métodos, os parâmetros especificam informações necessárias para a operação. Por exemplo, no método sacar(valor), o parâmetro valor indica quanto dinheiro será retirado, 
+e no método transferir(valor, contaDestino), valor e contaDestino definem, respectivamente, a quantia e para qual conta a transferência deve ser feita.
+
+Terceiro problema: Sistema de Controle de Estoque
+
+Problema: Controlar o cadastro de produtos, fornecedores, entrada e saída de mercadorias e níveis de estoque.
+
+Classe: Uma classe Produto pode ser definida para representar cada item do estoque, com atributos como nome, código, quantidade e preço.
+
+Objeto: Cada produto no estoque é um objeto criado a partir da classe Produto.
+
+Métodos: A classe Produto pode oferecer métodos como atualizarEstoque(qtd), aplicarDesconto(percentual) e informarFornecedor(fornecedor).
+
+Parâmetros: Os métodos utilizam parâmetros para personalizar as operações. Por exemplo, atualizarEstoque(qtd) precisa do parâmetro qtd para determinar a variação na quantidade, 
+enquanto aplicarDesconto(percentual) usa o parâmetro percentual para calcular o novo preço.
