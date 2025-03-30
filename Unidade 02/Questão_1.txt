@@ -1,0 +1,13 @@
+A Programação Orientada a Objetos (POO) oferece diversas vantagens no desenvolvimento de aplicações e seus pontos positivos são:
+
+1. Reutilização de Código: Através da herança, classes podem reaproveitar atributos e métodos de outras classes,
+reduzindo a duplicação de código e facilitando a manutenção.
+
+2. Modularidade e Organização: O código é estruturado em objetos e classes, tornando-o mais organizado e facilitando a localização 
+e modificação de partes específicas do sistema.
+
+3. Facilidade na Manutenção e Escalabilidade: Alterações em uma classe não afetam outras partes do código se bem encapsuladas,
+o que facilita a manutenção e permite a expansão do sistema de forma mais segura.
+
+4. Facilidade na Modelagem do Mundo Real: A POO permite representar conceitos do mundo real de forma mais intuitiva,
+utilizando classes e objetos que correspondem a entidades e suas interações.
