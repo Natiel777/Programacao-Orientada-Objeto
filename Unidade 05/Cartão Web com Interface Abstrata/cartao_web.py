@@ -9,19 +9,22 @@ class CartaoWeb(ABC):
 		pass	
 
 class DiaDosNamorados(CartaoWeb):
-	def __init__(self, destinatario="ind"):	super().__init__(destinatario)
+	def __init__(self, destinatario="ind"):	
+		super().__init__(destinatario)
 	
 	def show_message(self):
 		print(f"Feliz Dia dos Namorados! {self.destinatario}")
 	
 class Natal(CartaoWeb):
-	def __init__(self, destinatario="ind"):	super().__init__(destinatario)
+	def __init__(self, destinatario="ind"):	
+		super().__init__(destinatario)
 	
 	def show_message(self):
 		print(f"Feliz Natal! {self.destinatario}")
 	
 class Aniversario(CartaoWeb):
-	def __init__(self, destinatario="ind"):	super().__init__(destinatario)
+	def __init__(self, destinatario="ind"):	
+		super().__init__(destinatario)
 	
 	def show_message(self):
 		print(f"Feliz Aniversário! {self.destinatario}")
